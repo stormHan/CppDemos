@@ -136,42 +136,42 @@ CDemo operator--(CDemo& d, int)
 }
 
 
-int main(int argc, char** argv)
-{
-	Complex c1(1, 2), c2(3, 5), c3, c4;
-	c3 = c1 + c2;
-	c4 = c1 - c2;
-	std::cout << c3.real << " " << c4.imag << std::endl;
-
-	String s;
-	
-	s = "good luck!";
-	std::cout << s.c_str() << std::endl;
-
-	char* w = "hello world";
-	std::cout << w << std::endl;
-
-
-	int a = 1;
-	int b = a;
-	std::cout << &a << " " << &b << std::endl;
-	
-
-	CDemo d(5);
-	cout << (d++) << ",";
-	cout << d << ",";
-	cout << (++d) << ",";
-	cout << d << endl;
-	cout << (d--) << ",";
-	cout << d << ",";
-	cout << (--d) << ",";
-	cout << d << endl;
-	
-	getchar();
-
-
-	return 1;
-}
+//int main(int argc, char** argv)
+//{
+//	Complex c1(1, 2), c2(3, 5), c3, c4;
+//	c3 = c1 + c2;
+//	c4 = c1 - c2;
+//	std::cout << c3.real << " " << c4.imag << std::endl;
+//
+//	String s;
+//	
+//	s = "good luck!";
+//	std::cout << s.c_str() << std::endl;
+//
+//	char* w = "hello world";
+//	std::cout << w << std::endl;
+//
+//
+//	int a = 1;
+//	int b = a;
+//	std::cout << &a << " " << &b << std::endl;
+//	
+//
+//	CDemo d(5);
+//	cout << (d++) << ",";
+//	cout << d << ",";
+//	cout << (++d) << ",";
+//	cout << d << endl;
+//	cout << (d--) << ",";
+//	cout << d << ",";
+//	cout << (--d) << ",";
+//	cout << d << endl;
+//	
+//	getchar();
+//
+//
+//	return 1;
+//}
 
 
 //int main()
