@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week4", "Week4\Week4.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week6", "Week6\Week6.vcxproj", "{22C26C52-851D-49C1-A9FE-2422B10E33EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Warcraft", "Warcraft\Warcraft.vcxproj", "{2977060B-40E9-4390-BA13-EAE55C09A18D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +47,10 @@ Global
 		{22C26C52-851D-49C1-A9FE-2422B10E33EA}.Debug|Win32.Build.0 = Debug|Win32
 		{22C26C52-851D-49C1-A9FE-2422B10E33EA}.Release|Win32.ActiveCfg = Release|Win32
 		{22C26C52-851D-49C1-A9FE-2422B10E33EA}.Release|Win32.Build.0 = Release|Win32
+		{2977060B-40E9-4390-BA13-EAE55C09A18D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2977060B-40E9-4390-BA13-EAE55C09A18D}.Debug|Win32.Build.0 = Debug|Win32
+		{2977060B-40E9-4390-BA13-EAE55C09A18D}.Release|Win32.ActiveCfg = Release|Win32
+		{2977060B-40E9-4390-BA13-EAE55C09A18D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
