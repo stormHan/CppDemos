@@ -11,5 +11,5 @@ public:
 
 private:
 	Headquarter *pHead;
-	std::queue<int> m_queue;
+	std::queue<int> m_queue; // a queue to determine the sequence
 };
